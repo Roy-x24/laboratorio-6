@@ -1,0 +1,131 @@
+/* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2c4930;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+/*barra de navegacion*/
+.navbar {
+    background-color: #848484;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Post */
+.post {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-header h3 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #2c4930;
+}
+
+.post-header img {
+    display: block;
+    margin: 10px 0;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.subtitulo {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.post-body p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.post-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.post-body table, th, td {
+    border: 1px solid #ddd;
+}
+
+.post-body th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.post-body th {
+    background-color: #98f8d1;
+    color: white;
+}
+
+.post-body img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #848484;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+footer h4 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+footer form {
+    display: inline-block;
+    text-align: left;
+}
+
+footer fieldset {
+    border: none;
+    padding: 0;
+}
+
+footer label {
+    display: block;
+    margin: 10px 0;
+}
